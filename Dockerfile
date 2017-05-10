@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:latest
+FROM anapsix/alpine-java:8_jdk
 COPY src /home/root/javahelloworld/src
 WORKDIR /home/root/javahelloworld
 RUN mkdir bin
